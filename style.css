@@ -376,6 +376,13 @@ a {
     color: black;
 }
 
+#main {
+    color: red;
+}
+
+*{
+    scroll-behavior: smooth;
+}
 
 /* Columntitle start */
 
