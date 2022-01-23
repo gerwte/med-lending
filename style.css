@@ -936,3 +936,279 @@ nav ul {
     font-weight: 700;
     margin-left: 59px;
 }
+
+/* Testimonials block end */
+
+/* Conditions and forms start */
+
+.condition-form {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.condition {
+    margin-top: 179px;
+    width: 700px;
+}
+
+.condition__phys__title,
+.condition__hosp__title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.condition__prom {
+    color: #9B9B9B;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.condition__phys__text,
+.condition__prom__text {
+    font-size: 16px;
+    line-height: 29px;
+    color: #595959;
+    margin-bottom: 30px;
+}
+.rm-2 {
+    font-weight: 700;
+    font-size: 12px;
+    color: #7D7D7D;
+}
+.condition__phys {
+    margin-bottom: 40px;
+}
+
+.form {
+    margin-top: 125px;
+    background-color: #F7F7F7;
+    width: 474px;
+    height: 587px;
+    margin-bottom: 228px;
+}
+
+.form__title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 60px;
+    margin-left: 48px;
+    margin-bottom: 46px;
+}
+
+.first-name,
+.last-name,
+.email,
+.company {
+    width: 388px;
+    height: 53px;
+    margin-left: 48px;
+    border: 2px solid #E2E2E2;
+}
+
+.first-name,
+.last-name,
+.email {
+    margin-bottom: 37px;
+}
+
+.first-name::placeholder,
+.last-name::placeholder,
+.email::placeholder,
+.company::placeholder {
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+.send {
+    background-color: #B4141B;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 104px;
+    height: 35px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 338px;
+}
+
+/* Condition and form end */
+
+/* Social media, links and brief information start */
+
+.container-3 {
+    width: 1665px;
+    height: 553px;
+    background-color: #4A4A4A;
+    position: relative;
+}
+.brief-quick-social {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #ffff;
+    position: relative;
+}
+
+.brief {
+    width: 324px;
+    height: 145px;
+}
+
+.brief__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 208px;
+    margin-bottom: 45px;
+}
+
+.brief__text {
+    font-size: 16px;
+    line-height: 29px;
+}
+
+
+.quick__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 208px;
+    margin-bottom: 45px;
+}
+
+.quick__title__list__item__link {
+    color: #fff;
+    line-height: 29px;
+}
+
+.social {
+    margin-right: 133px;
+}
+
+.social__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 208px;
+    margin-bottom: 53px;
+}
+
+.social__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Social media, links and brief information end */
+
+
+/* Mail, address, phone number start */
+
+.mail-phone-address {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    color: #fff;
+    position: absolute;
+    top: -98px;
+    left: 247px; 
+}
+
+.address,
+.number-call,
+.mail-box {
+    width: 390px;
+    height: 196px; 
+}
+
+.address {
+    background-color: #5F5F5F;
+}
+.address__icon-address {
+    display: flex;
+    align-items: center;
+}
+.address__image {
+    margin-left: 16px;
+    margin-right: 37px;
+}
+.address__title {
+    margin-left: 67px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.number-call {
+    background-color: #6C6C6C;
+
+}
+
+.number-call__icon-number {
+    display: flex;
+    align-items: center;
+}
+
+.number-call__image {
+    margin-left: 16px;
+    margin-right: 32px; 
+}
+
+.number-call__title {
+    margin-left: 72px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.mail-box {
+    background-color: #7B7B7B;
+}
+
+.mail-box__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 75px;
+}
+
+.mail-box__icon-link {
+    display: flex;
+    align-items: center;
+}
+
+.mail-box__image {
+    margin-left: 16px;
+    margin-right: 34px;
+}
+
+.mail-box__link {
+    color: #fff;
+}
+
+/* Mail, address, phone number end */
+
+/* Footer start */
+
+.footer__container {
+    background-color: #363636;
+    width: 1665px;
+    height: 108px;
+}
+
+.footer {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.footer__text {
+    color: #fff;
+    padding-top: 45px;
+    font-size: 16px;
+}
