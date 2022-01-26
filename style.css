@@ -379,11 +379,11 @@ a {
 
 /* Columntitle start */
 
-.wrapper {
+.header {
     background-color: #0E77AF;
 }
 
-.columntitle {
+.header__wrapper {
     max-width: 1170px;
     margin: 0 auto;
     height: 40px;
@@ -406,7 +406,7 @@ a {
 /* Columntitle end */
 
 /* Navigation and logo start */
-.container {
+.logo-nav {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
@@ -421,23 +421,23 @@ nav ul {
     align-items: center;
 }
 
-.navigation {
+.nav-panel__link {
     margin: 6px;
     text-transform: uppercase;
 }
 
-.navigation:hover {
+.nav-panel__link:hover {
     font-weight: bold;
 }
 
-.phone-zone {
+.number-block {
     display: flex;
     justify-content: space-between;
 }
-.phone-image {
+.number-block__image {
     margin-right: 12px;
 }
-.ca {
+.number__title {
     font-size: 14px;
     color: #7D7D7D;
 }
@@ -446,7 +446,7 @@ nav ul {
 
 /* Priview start */
 
-.preview {
+.main-promise {
     background-image: url(img/preview.jpg);
     width: 1667px;
     height: 647px;
@@ -454,29 +454,29 @@ nav ul {
     margin-bottom: 85px;
 }
 
-.phys {
+.main-promise__text__title {
     font-size: 28px;
     margin-bottom: 20px;
 }
 
-.prom {
+.main-promise__text__subtitle {
     font-weight: 700;
     font-size: 84px;
 }
 
-.txt {
+.main-promise__text__paragraph {
     font-size: 32px;
     margin-bottom: 40px;
 }
 
-.reach {
+.main-promise__text__button {
     position: relative;
     background-color: #B4141B;
     width: 284px;
     height: 74px;
 }
 
-.us {
+.main-promise__text__button__link {
     position: absolute;
     top: 27px;
     left: 80px;
@@ -486,19 +486,19 @@ nav ul {
     font-size: 24px;
 }
 
-.preview__text {
+.main-promise__text {
     position: absolute;
     top: 150px;
     left: 830px;
 }
 
-.left__uk {
+.main-promise__left-pointer {
     position: absolute;
     top: 317px;
     left: 90px;
 }
 
-.right__uk {
+.main-promise__right-pointer {
     position: absolute;
     top: 317px;
     right: 90px;
@@ -508,7 +508,7 @@ nav ul {
 
 /* Information block start */
 
-.container-1 {
+.information-reasons-block {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
@@ -516,45 +516,50 @@ nav ul {
     margin-bottom: 135px;
 }
 
-.ab-us,
-.why-us {
+.information__title,
+.reasons__title {
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 56px;
 }
 
-.about {
+.information {
     width: 772px;
     margin-right: 50px;
 }
-.docs {
+.information__image {
     margin-bottom: 39.06px;
 }
 
-.about__text {
+.information__paragraph {
     font-size: 16px;
     width: 772px;
     height: 223px;
     line-height: 29px;
 }
 
-.depend {
-    width: 350px;
+.reasons__depend,
+.reasons__open,
+.reasons__connect {
+    width: 323px;
     height: 240px;
     background-color: #F7F7F7;
     position: relative;
+    padding-left: 37px;
 }
-.reasons {
+.reasons__depend__title,
+.reasons__open__title,
+.reasons__connect__title {
     font-weight: 700;
     font-size: 24px;
     color: #0E77AF;
     padding-top: 45px;
-    margin-left: 37px;
     margin-bottom: 17px;
 }
 
-.depend__text {
-    margin-left: 37px;
+.reasons__depend__text,
+.reasons__open__text,
+.reasons__connect__text {
     font-size: 16px;
     margin-bottom: 25px;
     width: 284px;
@@ -566,16 +571,15 @@ nav ul {
     right: 18px;
 }
 
-.rm {
+.read-more__grey-button {
     color: #7D7D7D;
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    margin-left: 37px;
     
 }
 
-.rm:hover {
+.read-more__grey-button:hover {
     color: #c7c7c7
 }
 
@@ -642,7 +646,7 @@ nav ul {
     padding-left: 34px;
 }
 
-.left-block {
+.benefits__left-block {
     background-image: url(img/doctor.jpg);
     background-repeat: no-repeat;
     width: 877px;
@@ -662,7 +666,7 @@ nav ul {
     justify-content: space-between;
 }
 
-.benefits__links {
+.benefits__left-block__links {
     display: flex;
     flex-direction: column;
     margin-top: 87px;
@@ -710,7 +714,7 @@ nav ul {
     margin-bottom: 55px;
 }
 
-.read-more {
+.read-more__red-button {
     background-color: #B4141B;
     color: #ffff;
     font-weight: 700;
@@ -780,13 +784,6 @@ nav ul {
     margin-bottom: 29px;
 }
 
-.rm-1 {
-    text-transform: uppercase;
-    color: #7D7D7D;
-    font-weight: 700;
-    font-size: 12px;
-}
-
 .service__item-2 {
     display: flex;
     justify-content: space-between;
@@ -843,16 +840,6 @@ nav ul {
     margin-bottom: 47px;
 }
 
-.security__button {
-    background-color: #B4141B;
-    color: #ffff;
-    font-weight: 700;
-    font-size: 12px;
-    text-transform: uppercase;
-    width: 104px;
-    height: 35px;
-    border: none;
-}
 
 /* Service and security block end */
 
@@ -1022,7 +1009,7 @@ nav ul {
     padding-left: 13px;
 }
 
-.send {
+.send-button {
     background-color: #B4141B;
     color: #ffff;
     font-weight: 700;
